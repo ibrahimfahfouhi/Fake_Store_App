@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KNwy8NvFzJ07lHt2ViAbUTk+hLY5ew5At8M1eWNX0uI=",
+  "Source": "FakeStoreApp",
+  "BasePath": "_content/FakeStoreApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
