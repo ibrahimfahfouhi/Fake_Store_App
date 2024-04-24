@@ -70,3 +70,15 @@ C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\obj\Debug\net7.0\refint\F
 C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\obj\Debug\net7.0\FakeStoreApp.pdb
 C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\obj\Debug\net7.0\FakeStoreApp.genruntimeconfig.cache
 C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\obj\Debug\net7.0\ref\FakeStoreApp.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Serilog.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Serilog.Enrichers.Environment.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Serilog.Enrichers.Thread.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\IbrahimFAHFOUHI\b3g\FakeStoreApp\FakeStoreApp\bin\Debug\net7.0\Serilog.Sinks.File.dll

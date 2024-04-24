@@ -1,16 +1,20 @@
 ﻿using FakeStoreApp.entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FakeStoreApp.Controllers
 {
     [ApiController]
     [Route("/products")]
+    [Authorize]
     public class ProductsController : Controller
     {
         private readonly FakeStoreDbContext _dbContext;
-        public ProductsController(FakeStoreDbContext fakeStoreDbContext)
+        private readonly ILogger<ProductsController> _logger;
+        public ProductsController(FakeStoreDbContext fakeStoreDbContext, ILogger<ProductsController> logger)
         {
             _dbContext = fakeStoreDbContext;
+            _logger = logger;
         }
         [HttpGet]
         [Route("")]
@@ -22,7 +26,12 @@ namespace FakeStoreApp.Controllers
         [HttpGet]
         [Route("{id}")]
         public ActionResult GetProductById(int id) {
+            _logger.LogDebug("Getting product #" + id);
             var product = _dbContext.Set<Product>().Find(id);
+            if( product == null)
+            {
+                _logger.LogWarning("Product #{id} was not found -- time: {t}", id, DateTime.Now);
+            }
             return product == null? NotFound() : Ok(product); 
         }
 
